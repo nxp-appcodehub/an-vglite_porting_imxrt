@@ -1,0 +1,103 @@
+Release Name: Software for AN13778
+Release Version: 1.0
+Description: This software is to show the porting VGLite driver for bare metal and single task.
+
+Package License: LA_OPT_NXP_Software_License v48 July 2023 - Additional Distribution license granted, Section 2.3 applies
+License File: LICENSE.txt
+
+Release Location: https://github.com/nxp-appcodehub/an-vglite_porting_imx
+Origin: NXP 
+
+--------------------------------------------------------------------------------
+
+SDK_Peripheral_Driver      Name: SDK Peripheral Driver                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: devices/<device>/drivers                
+                           Origin: NXP (BSD-3-Clause)                        
+
+AN_Examples                Name: AN examples                                
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                                             
+                           Description: SDK out of box examples to show how  
+                           to use peripheral drivers and integrate           
+                           middleware.                                       
+                           Location: boards/<board>/                         
+                           Origin: NXP (BSD-3-Clause)                        
+
+SDK_Device                 Name: SDK SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code, linker files                 
+                           Description: Device system files, template files, 
+                           IDE related startup and linker files.             
+                           Location: devices/<device>/                       
+                           Origin: NXP (BSD-3-Clause)                        
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.6.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: CMSIS/                                  
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.8.0                                          
+
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: components/                             
+                           Origin: NXP (BSD-3-Clause), ITE (BSD-3-Clause)    
+
+freertos_kernel            Name: FreeRTOS                                    
+                           Version: 10.4.3_rev1                              
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           rtos/freertos/freertos_kernel/LICENSE.md          
+                           Format: source code                               
+                           Description: Open source RTOS kernel for small    
+                           devices                                           
+                           Location: rtos/freertos/freertos_kernel           
+                           Origin: Amazon (MIT)                              
+                           Url: https://aws.amazon.com/freertos/             
+
+vglite                     Name: vglite                                      
+                           Version: 3.0.13_rev2                              
+                           Outgoing License: MIT                             
+                           License File: middleware/vglite/LICENSE.txt       
+                           Format: source code                               
+                           Description: VeriSilicon's platform independent   
+                           VGLite Graphics library                           
+                           Location: middleware/vglite                       
+                           Origin: VeriSilicon (http://www.verisilicon.com/) 
+                           Url: http://www.verisilicon.com/                  
+
+mcufont                    Name: mcufont                                     
+                           Version: 1.0                                      
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           middleware/vglite/font/mcufont/LICENSE            
+                           Format: source code                               
+                           Description: Font rendering library for           
+                           microcontrollers                                  
+                           Location: middleware/vglite/font/mcufont          
+                           Origin: Petteri Aimonen                           
+                           (https://github.com/PetteriAimonen)               
+                           Url: https://github.com/mcufont/mcufont
