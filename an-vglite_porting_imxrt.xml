@@ -1,4 +1,7 @@
 <data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-vglite_porting_imxrt" type="app_note" format="projectfile" name="vglite_porting_imxrt">
+    <display_title>
+        AN13778: Porting VGLite driver for bare metal or single task
+    </display_title>
     <overview>
         <![CDATA[This application outlines the software structure of vglite middleware, analyzes current driver code to support multitask, then gives the details on how to port vglite middleware for bare metal and single task. The ported source code and its examples are provided.]]>
     </overview>
